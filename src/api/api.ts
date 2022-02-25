@@ -185,12 +185,3 @@ export function deleteReport(data: any) {
         params: data
     })
 }
-
-//addWork
-export function addWork(data: any) {
-    return request({
-        url: '/addWork',
-        method: 'post',
-        data: data
-    })
-}

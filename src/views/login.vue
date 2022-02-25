@@ -16,11 +16,7 @@
 import { ref, reactive, onMounted, watch } from 'vue'
 import { NInput, NButton, useMessage } from 'naive-ui'
 import router from '@/router'
-import { login, addWork } from "../api/api"
-
-let tada = { id: 1, name: "张三" }
-let res = await addWork(tada)
-console.log(res, 888)
+import { login } from "../api/api"
 
 const account = ref<string>("")
 const password = ref<string>("")

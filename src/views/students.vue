@@ -158,7 +158,6 @@ const tableDataStudent = ref<StudentTableItem[]>([{
     name: "",
     age: 0,
     phone: "",
-    
     paperList: [],
     paperStr: ""
 }])
